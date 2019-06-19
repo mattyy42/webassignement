@@ -1,0 +1,79 @@
+.background{
+  background-image: linear-gradient(to left, #72e4b8,  #29dd47);
+}
+.topnav { 
+    background-color: rgb(48, 46, 46);
+     margin-top: 0px;
+     color:transparent;
+     width: 100%;
+     height: 75px; 
+     position: fixed;
+   }
+   .topnav a {  
+     background-color :transparent;
+     float: left;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     margin: 20px;  
+     color: white;
+   }
+   .topnav a:hover {   
+     background-color: yellow;
+     color: black;
+   }
+   .top{  
+     color: white;
+     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+     background-size: cover;
+     overflow: hidden;
+   
+   }
+   .myposts{
+    border: groove;
+    padding: 5px;
+    width:97%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    box-shadow: 0 0 5px 15px #a0a0affd;
+  }
+  .myposts img{
+      height: 170px;
+      width:170px;
+      margin:70px;
+  }
+	.myposts img:hover{
+    height: 200px;
+    width:200px;
+    margin:70px;
+}
+  input {
+    font-size: 120%;
+    color: #302e2a;
+    border: 1px groove #e21313;
+    border-radius: 5px;
+    padding: 5px 5px 5px;
+    background: #645a5a ;
+  }
+  input:focus, input:hover {
+    background-color: #ffffff;
+    border: 1px solid #00d82f;
+  }
+
+  .footer
+{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background:transparent;
+}
+.footer h1{
+  color: white;
+  font-family: fantasy; 
+}
+.footer img{
+  height: 50px;
+  width: 50px;
+}
+   
